@@ -12,6 +12,12 @@
   .heading h2 {
     font-size: 20px;
   }
+
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+  }
 }
 
 /* For Smartphones */
@@ -65,4 +71,12 @@
   }
 
   
+}
+
+@media all and (max-width: 1366px){
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+  }
 }
