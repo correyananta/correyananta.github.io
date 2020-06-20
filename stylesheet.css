@@ -11,6 +11,24 @@ a {
   text-decoration: none;
 }
 
+@keyframes gogreen {
+  0%   {left:0px;}
+  10%  {left:10px;transform: rotate(180deg)}
+  30% {left:20px;transform: rotate(360deg)}
+  50% {left:30px;transform: rotate(0deg)}
+  70% {left:40px;transform: rotate(180deg)}
+  90% {left:50px;transform: rotate(360deg)}
+  100% {left:70px;transform: rotate(0deg)}
+}
+.animation{
+  position: absolute;
+  width:150px;
+  animation-name: gogreen;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
 .clear {
   clear: left;
 }
