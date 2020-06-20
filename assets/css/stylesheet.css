@@ -45,7 +45,7 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(assets/img/left-hand.jpg);
+  background-image: url(../../assets/img/left-hand.jpg);
   background-size: cover;
   color: #0a5e38;
   text-align: right;
