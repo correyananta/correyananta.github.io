@@ -53,4 +53,9 @@
     font-size: 14px;
     line-height: 20px;
   }
+
+  footer{
+    width: 100%;
+    padding: 0;
+  }
 }
