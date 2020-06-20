@@ -130,14 +130,13 @@ header {
   display: block;
   float: left;
   transition: all 0.5s;
+  cursor: pointer;
 }
 
 
 .header-right a:hover {
   color:rgb(25, 124, 58);
-}
-
-.contact:hover{
+  transform: translateX(0.15em);
   background-color: rgba(13, 179, 68, 0.6);
   color:white;
 }
