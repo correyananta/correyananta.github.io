@@ -137,9 +137,8 @@ header {
   cursor: pointer;
 }
 
-
-.header-right a:hover {
-  color:rgb(25, 124, 58);
+.active, .menu:hover {
+  /*color:white;*/
   transform: translateX(0.15em);
   background-color: rgba(13, 179, 68, 0.6);
   color:white;
@@ -189,6 +188,11 @@ header {
 
 .lesson-icon img{
   width: 50%;
+  transition: 1s;
+}
+
+.lesson-icon:hover img{
+  transform: rotate(360deg);
 }
 
 .text-contents {
