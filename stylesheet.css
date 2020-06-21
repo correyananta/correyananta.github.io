@@ -1,3 +1,64 @@
+/* Header Style */
+.fa {
+  margin-right: 5px;
+}
+
+.container span{
+  display: none;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color:#fff;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 230px;
+  float: left;
+  padding: 5px 40px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  font-size: 25px;
+  line-height: 65px;
+  padding: 0 25px;
+  color:rgb(16, 177, 70);
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+
+.header-right a:hover {
+  color:rgb(25, 124, 58);
+  transform: translateX(0.15em);
+  background-color: rgba(13, 179, 68, 0.6);
+  color:white;
+}
+
+.menu-icon{
+  color:black;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -64,8 +125,12 @@ a {
 }
 
 .btn-wrapper {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
   text-align: center;
-  margin: 20px 0;
 }
 
 .btn-wrapper p {
@@ -96,61 +161,6 @@ a {
 
 .btn:hover {
   opacity: 1;
-}
-
-.fa {
-  margin-right: 5px;
-}
-
-header {
-  height: 65px;
-  width: 100%;
-  background-color:#fff;
-  position :fixed;
-  top: 0;
-  z-index: 10;
-}
-
-.logo {
-  width: 230px;
-  float: left;
-  padding: 5px 40px;
-}
-
-.header-left {
-  float: left;
-}
-
-.header-right {
-  float: right;
-  margin-right: -25px;
-}
-
-.header-right a {
-  font-size: 25px;
-  line-height: 65px;
-  padding: 0 25px;
-  color:rgb(16, 177, 70);
-  display: block;
-  float: left;
-  transition: all 0.5s;
-  cursor: pointer;
-}
-
-
-.header-right a:hover {
-  color:rgb(25, 124, 58);
-  transform: translateX(0.15em);
-  background-color: rgba(13, 179, 68, 0.6);
-  color:white;
-}
-
-.menu-icon{
-  color:black;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
 }
 
 .lesson-wrapper {
@@ -205,7 +215,7 @@ header {
 
 .message-wrapper {
   border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
   text-align: center;
 }
 
