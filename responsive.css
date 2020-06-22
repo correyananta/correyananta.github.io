@@ -1,8 +1,6 @@
 /* For Tablets */
 @media all and (max-width: 1000px) {
-  .animation{
-  visibility:hidden;
-  }
+
   .lesson {
     width: 50%;
     margin-bottom: 50px;
@@ -19,6 +17,9 @@
 
 /* For Smartphones */
 @media all and (max-width: 670px) {
+  .animation{
+    visibility:hidden;
+  }
   .lesson {
     width: 100%;
   }
