@@ -1,3 +1,10 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -146,11 +153,12 @@ header {
 }
 
 .menu-icon{
-  color: white;
+  color: rgb(32, 33, 36);
   float: right;
   font-size: 25px;
   padding: 21px 0;
   display: none;
+  cursor:pointer;
 }
 
 .lesson-wrapper {

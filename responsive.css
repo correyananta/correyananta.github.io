@@ -1,5 +1,6 @@
 /* For Tablets */
 @media all and (max-width: 1000px) {
+
   .lesson {
     width: 50%;
     margin-bottom: 50px;
@@ -15,8 +16,10 @@
 }
 
 /* For Smartphones */
-@media (max-width: 670px) {
-
+@media all and (max-width: 670px) {
+  .animation{
+    visibility:hidden;
+  }
   .lesson {
     width: 100%;
   }
@@ -54,12 +57,12 @@
     font-size: 14px;
     line-height: 20px;
   }
-
   .footer-list{
     display: none;
   }
-
   .animation {
     display: none;
+  .menu-icon{
+    display:block;
   }
 }
