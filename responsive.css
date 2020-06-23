@@ -15,7 +15,8 @@
 }
 
 /* For Smartphones */
-@media all and (max-width: 670px) {
+@media (max-width: 670px) {
+
   .lesson {
     width: 100%;
   }
@@ -52,5 +53,13 @@
   .top-wrapper p {
     font-size: 14px;
     line-height: 20px;
+  }
+
+  .footer-list{
+    display: none;
+  }
+
+  .animation {
+    display: none;
   }
 }
