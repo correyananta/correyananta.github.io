@@ -8,6 +8,10 @@ html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p, div {
 }
 
 /* Header Style */
+* {
+  box-sizing: border-box;
+}
+
 .fa {
   margin-right: 5px;
 }
@@ -67,13 +71,8 @@ header {
   display: none;
 }
 
-
 html {
   scroll-behavior: smooth;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 body {
@@ -96,7 +95,8 @@ a {
 }
 .animation{
   position: absolute;
-  width:150px;
+  width:50px;
+  height: 10px;
   animation-name: gogreen;
   animation-duration: 10s;
   animation-iteration-count: infinite;
@@ -184,9 +184,14 @@ a {
   padding-top: 80px;
   padding-bottom: 50px;
   color: #5f5d60;
+  text-align: center;
 }
 
 .heading h2 {
+  font-weight: normal;
+}
+
+.heading h3 {
   font-weight: normal;
 }
 
@@ -218,13 +223,9 @@ a {
   color: #b3aeb5;
 }
 
-.heading h3 {
-  font-weight: normal;
-}
-
 .message-wrapper {
   border-bottom: 1px solid #eee;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   text-align: center;
 }
 
@@ -244,6 +245,7 @@ a {
 .footer-list a {
   font-size: 16px;
   color:#b3aeb5;
+  display: inline;
 }
 
 footer img {
